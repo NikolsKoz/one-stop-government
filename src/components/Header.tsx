@@ -6,7 +6,7 @@ type HeaderProps = {
 
 const Header = (props: HeaderProps) => {
   // const {}
-  return <header className="header">Header</header>;
+  return <header className="header">header</header>;
 };
 
 export default Header;
