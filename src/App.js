@@ -1,11 +1,10 @@
-import './styles/App.css';
+import "./styles/App.css";
+import Header from "./app/components/Header.tsx";
 
 function App() {
   return (
     <div className="wrapper">
-      <header className="header">
-
-      </header>
+      <Header />
     </div>
   );
 }
