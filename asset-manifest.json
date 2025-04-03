@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/one-stop-government/static/css/main.86c017b6.css",
-    "main.js": "/one-stop-government/static/js/main.cedccad5.js",
+    "main.js": "/one-stop-government/static/js/main.21e47133.js",
     "index.html": "/one-stop-government/index.html",
     "main.86c017b6.css.map": "/one-stop-government/static/css/main.86c017b6.css.map",
-    "main.cedccad5.js.map": "/one-stop-government/static/js/main.cedccad5.js.map"
+    "main.21e47133.js.map": "/one-stop-government/static/js/main.21e47133.js.map"
   },
   "entrypoints": [
     "static/css/main.86c017b6.css",
-    "static/js/main.cedccad5.js"
+    "static/js/main.21e47133.js"
   ]
 }
