@@ -1,4 +1,5 @@
 import React from "react";
+import TabbedGrid from "../components/topics.tsx";
 
 type MainProps = {
   title: string;
@@ -6,7 +7,11 @@ type MainProps = {
 
 const Main = (props: MainProps) => {
   // const {}
-  return <div className="main">main</div>;
+  return (
+    <div className="main">
+      <TabbedGrid />
+    </div>
+  );
 };
 
 export default Main;
