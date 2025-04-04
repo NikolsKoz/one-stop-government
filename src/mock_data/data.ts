@@ -7,6 +7,7 @@ export const DATA = {
     { title: "Aktuelles" },
     { title: "Portrait" },
   ],
-  buttons: [{ title: "Konto anlegen" }, { title: "Einloggen" }],
-  icon: "images/icons/icon-header.svg",
+  buttons: [{ title: "Konto anlegen", type:"white" }, { title: "Einloggen", type:"black" }],
+  title: "Service-Portal",
+  placeholder: "Service-name oder thema",
 };

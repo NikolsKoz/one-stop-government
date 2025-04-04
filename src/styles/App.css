@@ -1,40 +1,108 @@
+h1 {
+  font-size: 56px;
+  margin: 25px 0;
+}
 .wrapper {
+  font-family: Inter;
   text-align: center;
-  /* background-color: #282c34; */
   background-color: #fff;
   min-height: 100vh;
 }
 .hero {
-  background: url("/public/images/img/backround.png");
+  background-color: #fffceb;
+  background-image: url("../images/img/backround.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   height: 100vh;
   max-height: 613px;
 }
+.hero-block {
+  height: min-content;
+  margin-top: 127px;
+}
+.hero-block-input {
+  width: 100%;
+  max-width: 512px;
+  height: 48px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: flex-end;
+}
+.hero-block-input input {
+  width: 100%;
+  border-radius: 100px;
+  padding: 15px 25px;
+  border: none;
+  font-size: 16px;
+}
+.hero-block-input::after {
+  content: "";
+  position: relative;
+  display: inline-block;
+  background: url("../images/icons/search.svg") no-repeat;
+  background-size: contain;
+  background-position: center;
+  font-weight: bold;
+  margin: auto 0;
+  width: 18px;
+  height: 18px;
+  right: 34px;
+}
+.hero .logo img {
+  width: 100%;
+  height: 100%;
+  max-width: 172px;
+  max-height: 76px;
+}
 .main,
 .footer {
-  /* background-color: #282c34; */
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  /* color: white; */
 }
 .header {
   display: flex;
   justify-content: space-between;
+  padding: 24px 60px;
 }
-.header .icon img {
+.navigation {
+  display: flex;
+  gap: 34px;
+}
+.navLink {
+  height: min-content;
+  margin: auto 0;
+  text-decoration: none;
+  color: #000;
+}
+.header .icon {
   width: 100%;
   height: 100%;
   max-width: 28px;
   max-height: 32px;
+  margin: auto 0;
 }
 .buttons {
   display: flex;
+  gap: 16px;
   justify-content: space-between;
+  align-items: center;
+}
+.button {
+  padding: 12px 24px;
+  border-radius: 40px;
+  border: 1px solid black;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  font-size: 14px;
+}
+.button.light {
+  color: black;
+  background-color: white;
 }
 
 .tabbed-grid-container {
