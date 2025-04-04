@@ -1,13 +1,17 @@
 {
   "files": {
-    "main.css": "/one-stop-government/static/css/main.d471805f.css",
-    "main.js": "/one-stop-government/static/js/main.bbbc1a98.js",
+    "main.css": "/one-stop-government/static/css/main.761725f0.css",
+    "main.js": "/one-stop-government/static/js/main.0269e8be.js",
+    "static/media/backround.png": "/one-stop-government/static/media/backround.2b7b77b5f471a2ced53b.png",
+    "static/media/logo.svg": "/one-stop-government/static/media/logo.9e55362e59c408e487367e0063db7b14.svg",
+    "static/media/icon-header.svg": "/one-stop-government/static/media/icon-header.aade4110ee324d9bda16191a2ab9f689.svg",
     "index.html": "/one-stop-government/index.html",
-    "main.d471805f.css.map": "/one-stop-government/static/css/main.d471805f.css.map",
-    "main.bbbc1a98.js.map": "/one-stop-government/static/js/main.bbbc1a98.js.map"
+    "static/media/search.svg": "/one-stop-government/static/media/search.7663c0062a0b1a892e28.svg",
+    "main.761725f0.css.map": "/one-stop-government/static/css/main.761725f0.css.map",
+    "main.0269e8be.js.map": "/one-stop-government/static/js/main.0269e8be.js.map"
   },
   "entrypoints": [
-    "static/css/main.d471805f.css",
-    "static/js/main.bbbc1a98.js"
+    "static/css/main.761725f0.css",
+    "static/js/main.0269e8be.js"
   ]
 }
