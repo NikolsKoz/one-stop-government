@@ -2,6 +2,9 @@ h1 {
   font-size: 56px;
   margin: 25px 0;
 }
+.wrap {
+  padding: 60px;
+}
 .wrapper {
   font-family: Inter;
   text-align: center;
@@ -63,6 +66,52 @@ h1 {
   justify-content: center;
   font-size: calc(10px + 2vmin);
 }
+.footer {
+  background-color: black;
+  color: white;
+  padding: 60px;
+}
+.footer-top {
+  display: flex;
+  width: 100%;
+  /* max-height: 280px; */
+}
+.footer-item {
+  width: 100%;
+}
+.footer ul {
+  width: 100%;
+  text-align: left;
+  max-height: 228px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding: 0;
+  row-gap: 8px;
+}
+.footer a {
+  color: white;
+}
+.footer-title {
+  font-size: 16px;
+  text-align: left;
+}
+.footer-link {
+  font-size: 13px;
+  text-decoration: none;
+}
+.footer li {
+  list-style: none;
+}
+.footer-bottom {
+  width: 100%;
+}
+.footer-bottom ul{
+  max-height: 160px;
+}
+.footer-bottom .footer-title {
+  text-decoration: none;
+}
 .header {
   display: flex;
   justify-content: space-between;
@@ -105,6 +154,58 @@ h1 {
   background-color: white;
 }
 
+/* SwiperSlider */
+.swiper-block {
+  width: 100%;
+  text-align: left;
+}
+.swiper-slide {
+  cursor: pointer;
+}
+.swiper-block h2 {
+  text-align: left;
+  margin: 28px 0 60px;
+}
+.swiper-nav {
+  display: flex;
+  justify-content: space-between;
+}
+.swiper-nav-buttons {
+  display: flex;
+  justify-content: flex-end;
+  gap: 30px;
+}
+.custom-arrow {
+  cursor: pointer;
+  width: 60px;
+  height: 40px;
+}
+.custom-arrow.disabled {
+  cursor: initial;
+}
+.slide-title {
+  font-size: 20px;
+  margin-bottom: 8px;
+}
+.slide-description {
+  font-size: 12px;
+}
+.custom-swiper {
+  width: 100%;
+  height: max-content;
+  margin: auto;
+}
+
+.slide-image {
+  width: 100%;
+  height: 100%;
+  max-width: 312px;
+  max-height: 197px;
+  object-fit: cover;
+}
+
+/*-------------------------*/
+
 .tabbed-grid-container {
   width: 100%;
   /* Adjust width as needed */
@@ -112,25 +213,27 @@ h1 {
 
 .tabs {
   display: flex;
-  border-bottom: 1px solid #ccc;
 }
 
 .tabs button {
   padding: 10px 15px;
   border: none;
-  background-color: #f0f0f0;
+  background-color: white;
   cursor: pointer;
   font-size: 1rem;
   outline: none;
+  border-bottom: 2px solid white;
+  color: #767676;
 }
 
 .tabs button.active {
-  background-color: #fff;
-  border-bottom: 2px solid blue; /* Style for the active tab */
+  color: #000;
+  /* background-color: #fff; */
+  border-bottom: 2px solid black; /* Style for the active tab */
 }
 
 .tab-content {
-  padding: 15px;
+  padding-top: 40px;
 }
 
 .grid-container {

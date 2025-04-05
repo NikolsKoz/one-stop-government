@@ -84,6 +84,7 @@ const TabbedGrid = () => {
 
   return (
     <div className="tabbed-grid-container">
+      <div className="wrap">
       <div className="tabs">
         <button
           className={activeTab === "Privatpersonen" ? "active" : ""}
@@ -107,7 +108,7 @@ const TabbedGrid = () => {
                 key={index}
                 href={link.url || "#"}
                 className="grid-item"
-                target={link.url ? "_blank" : undefined}
+                target={link.url ? "_self" : undefined}
                 rel={link.url ? "noopener noreferrer" : undefined}
               >
                 <h3>{link.title}</h3>
@@ -120,6 +121,7 @@ const TabbedGrid = () => {
             ))}
           </div>
         )}
+      </div>
       </div>
     </div>
   );
